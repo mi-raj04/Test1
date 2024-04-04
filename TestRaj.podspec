@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'Test1'
+  s.name             = 'TestRaj'
   s.version          = '1.0.0'
   s.summary          = 'This is My Valid Descriptions.'
 

@@ -187,7 +187,7 @@
 		E4BC9A298424D9B8972BA9B6B716BBA7 /* Pods-Test1_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Test1_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E6213792C704D1F49B735A562D2FE09F /* AuthenticationInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationInterceptor.swift; path = Source/Features/AuthenticationInterceptor.swift; sourceTree = "<group>"; };
 		E6420ECD72CD99AC2C019FA0731BEB17 /* Pods-Test1_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Test1_Example"; path = Pods_Test1_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EAAD21A0E2BF3F48E000F6C2A69B9904 /* Test1.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Test1.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EAAD21A0E2BF3F48E000F6C2A69B9904 /* TestRaj.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TestRaj.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EE5B1D0B20B04A8179483506F9CCAE2C /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/Core/ParameterEncoder.swift; sourceTree = "<group>"; };
 		EEB003996B0C2025CE49D9B072719AB4 /* Test1-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Test1-dummy.m"; sourceTree = "<group>"; };
 		EF96093C97A257999AF2FA523CB0656C /* Test1-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Test1-Info.plist"; sourceTree = "<group>"; };
@@ -371,7 +371,7 @@
 			children = (
 				6068A9FDC765ABFEDECE309DDA112910 /* LICENSE */,
 				0C2F821837BF53B5FEC1209548492E9F /* README.md */,
-				EAAD21A0E2BF3F48E000F6C2A69B9904 /* Test1.podspec */,
+				EAAD21A0E2BF3F48E000F6C2A69B9904 /* TestRaj.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -384,7 +384,7 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		BC46D7F977762FF41743CCE1AB226955 /* Test1 */ = {
+		BC46D7F977762FF41743CCE1AB226955 /* TestRaj */ = {
 			isa = PBXGroup;
 			children = (
 				B846A6542BBEB70900BE90D4 /* 907X_03.jpg */,
@@ -392,7 +392,7 @@
 				9A5BEE53480C0C1B79CD5D3E1F2FAC89 /* Pod */,
 				EC4B33D14A6323F964689644B9651AFB /* Support Files */,
 			);
-			name = Test1;
+			name = TestRaj;
 			path = ../..;
 			sourceTree = "<group>";
 		};
@@ -447,7 +447,7 @@
 		FF1C69EE180FA96C764FBE3B1D7EE57F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BC46D7F977762FF41743CCE1AB226955 /* Test1 */,
+				BC46D7F977762FF41743CCE1AB226955 /* TestRaj */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
