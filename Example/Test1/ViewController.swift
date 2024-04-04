@@ -7,11 +7,16 @@
 //
 
 import UIKit
+import Test1
+import Pods_Test1_Example
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let log = Logger()
+        log.printLog()
+
         // Do any additional setup after loading the view, typically from a nib.
     }
 
