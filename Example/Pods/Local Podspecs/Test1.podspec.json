@@ -1,9 +1,9 @@
 {
   "name": "Test1",
-  "version": "0.1.0",
-  "summary": "A short description of Test1.",
+  "version": "5.0",
+  "summary": "This is My Valid Descriptions.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/raj saija/Test1",
+  "homepage": "https://github.com/mi-raj04/Test1",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,16 @@
     "raj saija": "raj.saija@mindinventory.com"
   },
   "source": {
-    "git": "https://github.com/raj saija/Test1.git",
+    "git": "https://github.com/mi-raj04/Test1.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "14.0"
   },
-  "source_files": "Test1/Classes/**/*"
+  "source_files": "Test1/Classes/**/*",
+  "dependencies": {
+    "Alamofire": [
+
+    ]
+  }
 }

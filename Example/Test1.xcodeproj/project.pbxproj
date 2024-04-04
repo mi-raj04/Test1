@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		243DDAADA121FFB3592857B9 /* Pods_Test1_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 355AFD6DE455C893894CE9BE /* Pods_Test1_Tests.framework */; };
-		5917C0C70319E8C5AC688BB1 /* Pods_Test1_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275D257D652DE92827E34FF0 /* Pods_Test1_Example.framework */; };
+		1AE3A033800C4F1B89C721D9 /* Pods_Test1_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275D257D652DE92827E34FF0 /* Pods_Test1_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		92E8CE233990A1ED160A10C4 /* Pods_Test1_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 355AFD6DE455C893894CE9BE /* Pods_Test1_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5917C0C70319E8C5AC688BB1 /* Pods_Test1_Example.framework in Frameworks */,
+				1AE3A033800C4F1B89C721D9 /* Pods_Test1_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				243DDAADA121FFB3592857B9 /* Pods_Test1_Tests.framework in Frameworks */,
+				92E8CE233990A1ED160A10C4 /* Pods_Test1_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,10 +313,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Test1_Example/Pods-Test1_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Test1/Test1.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Test1.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

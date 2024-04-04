@@ -1,16 +1,23 @@
 PODS:
-  - Test1 (0.1.0)
+  - Alamofire (5.9.1)
+  - Test1 (5.0):
+    - Alamofire
 
 DEPENDENCIES:
   - Test1 (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
 
 EXTERNAL SOURCES:
   Test1:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Test1: c8e63d17badf009b1c4eb39b3695c2d39708786c
+  Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
+  Test1: 8069321bec73d1b3c6597b663b8efd7a59faf64f
 
-PODFILE CHECKSUM: 34982cdbc5b4398612b66b5a41cadb3b49940d56
+PODFILE CHECKSUM: b2a0113d2ef5e192fafd05c4437bdc70d5063da0
 
-COCOAPODS: 1.12.1
+COCOAPODS: 1.15.2
